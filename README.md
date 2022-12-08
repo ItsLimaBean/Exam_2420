@@ -28,6 +28,12 @@
 
 ```bash
 #!/bin/bash
+#: Title       : find_users
+#: Date        : Dec 8, 2022
+#: Author      : Liam Brooke
+#: Version     : 1.0
+#: Description : Displays regular users and logged in users. Also outputs to /etc/motd.
+#: Options     : None
 
 function display(){
         echo Regular users on the system are:
