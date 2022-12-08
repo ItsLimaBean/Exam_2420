@@ -71,7 +71,7 @@ WantedBy=mutli-user.target
 
 # Part 6 - Timer File
 
-![Status](images/part_6_status.
+![Status](images/part_6_status)
 
 ```
 [Unit]
