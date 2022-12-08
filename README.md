@@ -60,3 +60,20 @@ ExecStart=/opt/find_users/find_users
 [Install]
 WantedBy=mutli-user.target
 ```
+
+# Part 6 - Timer File
+
+![Status](images/part_6_status.
+
+```
+[Unit]
+Description=Timer to start the find_users script 1 minute after boot once a day.
+
+[Timer]
+OnBootSec=1 m
+Unit=find_users.service
+Persistent=true
+
+[Install]
+WantedBy=timers.target
+```
