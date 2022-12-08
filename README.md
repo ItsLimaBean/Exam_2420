@@ -42,3 +42,21 @@ display
 
 display > /etc/motd
 ```
+
+## Part 5 - Service File
+
+![Status](images/part_5_status.png)
+
+* Service file is located in `/etc/systemd/system`
+
+```
+[Unit]
+Description=Tool to list users and output them to /etc/motd file
+
+[Service]
+Type=simple
+ExecStart=/opt/find_users/find_users
+
+[Install]
+WantedBy=mutli-user.target
+```
