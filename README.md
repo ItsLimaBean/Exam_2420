@@ -8,6 +8,8 @@
 ## Part 2 - Replace
 1. Replace V with C `:%s/V/C/g`
 2. Replace numbs with :digit: `:%s/numbs/:digit:/g`
+3. Replace echo with echo: `:%s/ech/echo/g`
+4. Replace the first 1 with 0: `:s/1/0`
 ![Part 2](images/part_2.png)
 
 ## Part 3 - journalctl
