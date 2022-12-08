@@ -23,3 +23,22 @@
 
 * Working Command
 ![Working cmd](images/part_3_work.png)
+
+## Part 4 - Find Users
+
+```bash
+#!/bin/bash
+
+function display(){
+        echo Regular users on the system are:
+        grep ':[1-5][0-9][0-9][0-9]:' /etc/passwd | awk -F ":" '{print $1,$3,$6}'
+
+        echo ""
+        echo "Users currently logged in are:"
+        who | awk '{print $1}'
+}
+
+display
+
+display > /etc/motd
+```
