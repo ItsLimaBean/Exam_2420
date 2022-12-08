@@ -10,21 +10,21 @@
 2. Replace numbs with :digit: `:%s/numbs/:digit:/g`
 3. Replace echo with echo: `:%s/ech/echo/g`
 4. Replace the first 1 with 0: `:s/1/0`
-![Part 2](images/part_2.png)
+![Part 2](Images/part_2.png)
 
 ## Part 3 - journalctl
 
 * I searched using /priority and shift+n to find the priority.
-![priority](images/part_3_prio.png)
+![priority](Images/part_3_prio.png)
 
 * I searched for json to find the `--output` option.
-![json](images/part_3_json.png)
+![json](Images/part_3_json.png)
 
 * I searched the man page using /boot
-![boot](images/part_3_boot.png)
+![boot](Images/part_3_boot.png)
 
 * Working Command
-![Working cmd](images/part_3_work.png)
+![Working cmd](Images/part_3_work.png)
 
 ## Part 4 - Find Users
 
@@ -53,7 +53,7 @@ display > /etc/motd
 
 ## Part 5 - Service File
 
-![Status](images/part_5_status.png)
+![Status](Images/part_5_status.png)
 
 * Service file is located in `/etc/systemd/system`
 
@@ -71,7 +71,7 @@ WantedBy=mutli-user.target
 
 # Part 6 - Timer File
 
-![Status](images/part_6_status.png)
+![Status](Images/part_6_status.png)
 
 ```
 [Unit]
